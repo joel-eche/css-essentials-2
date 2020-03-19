@@ -1,5 +1,15 @@
+@font-face {
+  font-family: "SF Pro Text";
+  src: url("/Users/josuenarro/Library/Fonts/FontsFree-Net-SFProText-Regular.ttf");
+  font-style: normal;
+  font-weight: normal;
+}
+
 body {
   background-color: #eaebed;
+  box-sizing: border-box;
+  color: #fff;
+  font-family: "SF Pro Text", sans-serif;
 }
 
 .main-container {
@@ -23,4 +33,135 @@ body {
 
 .icons {
   float: right;
+}
+
+/*** HEADER ***/
+header {
+  position: relative;
+  height: 30px;
+}
+
+header h1 {
+  font-size: 17px;
+  left: 130px;
+  margin: 0;
+  position: absolute;
+}
+
+header * {
+  padding: 0 10px;
+}
+
+/*** NAVBAR ***/
+nav {
+  height: 45px;
+  margin: 10px 0 0;
+  position: relative;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+ul li {
+  display: inline-block;
+  font-size: 13px;
+  width: 24%;
+  text-align: center;
+}
+
+li a {
+  border-bottom: solid 1px rgba(255, 255, 255, 0.2);
+  color: #fff;
+  opacity: 0.7;
+  display: block;
+  padding: 10px 10px;
+  text-decoration: none;
+}
+
+li a:hover {
+  border-bottom: solid 2px rgba(255, 255, 255);
+  opacity: 1;
+  padding-bottom: 10px;
+}
+
+/*** BALANCE SECTION ***/
+.balance {
+  height: 100px;
+  padding: 10px 0;
+  text-align: center;
+}
+
+.balance h2 {
+  opacity: 0.5;
+  font-size: 12px;
+  margin: 5px auto;
+}
+
+.balance h3 {
+  font-size: 40px;
+  margin: 10px auto;
+}
+
+.balance p {
+  font-size: 16px;
+  margin: 0 auto;
+  opacity: 0.8;
+}
+
+hr {
+  border: none;
+  border-top: 7px dotted #fff;
+  margin-top: 30px;
+  width: 5%;
+}
+
+/*** TRANSACTIONS SECTION ***/
+.transactions {
+  height: 457px;
+  overflow: auto;
+}
+
+.transaction-item {
+  background-color: #fff;
+  border-radius: 10px;
+  height: 70px;
+  margin: 0 10px 10px;
+  padding: 10px;
+  width: 90%;
+}
+
+.transaction-item h3 {
+  color: #232c2d;
+  font-size: 16px;
+  margin: 0;
+  opacity: 0.6;
+}
+
+.transaction-item p {
+  font-size: 28px;
+  margin: 5px 0;
+}
+
+/*** HELPER CLASSES ***/
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.positive {
+  color: #65bcbf;
+}
+
+.negative {
+  color: #f8777d;
 }
