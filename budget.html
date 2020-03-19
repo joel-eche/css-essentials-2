@@ -1,30 +1,91 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <script
-      src="https://kit.fontawesome.com/35d6a5945d.js"
-      crossorigin="anonymous"
-    ></script>
-    <link rel="stylesheet" type="text/css" href="./styles/budget.css" />
-    <title>Personal Budget</title>
-  </head>
-  <body>
-    <div class="main-container">
-      <section class="notification-bar">
-        <div class="clock">9:41</div>
-        <div class="icons">
-          <i class="fas fa-signal"></i>
-          <i class="fas fa-wifi"></i>
-          <i class="fas fa-battery-three-quarters"></i>
-        </div>
-      </section>
-      <!-- Complete your code here -->
-      <div style="text-align: center;">
-        YOUR TURN 👀
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <script src="https://kit.fontawesome.com/35d6a5945d.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" type="text/css" href="./styles/budget.css" />
+  <title>Personal Budget</title>
+</head>
+
+<body>
+  <div class="main-container">
+    <section class="notification-bar">
+      <div class="clock">9:41</div>
+      <div class="icons">
+        <i class="fas fa-signal"></i>
+        <i class="fas fa-wifi"></i>
+        <i class="fas fa-battery-three-quarters"></i>
+      </div>
+    </section>
+    <div id="header">
+      <div id="head-left-items">
+        <span class="gear-icon" style="margin-left:12px"></span>
+      </div>
+      <div id="head-center-items">
+        <p>Accounts</p>
+      </div>
+      <div id="head-right-items">
+        <span class="search-icon" style="margin-right:12px"></span>
+        <span class="plus-icon" style="margin-right:12px"></span>
       </div>
     </div>
-  </body>
+    <div id="navigation">
+      <ul>
+        <li>Daily</li>
+        <li>Weekly</li>
+        <li class="active">Monthly</li>
+        <li>Yearly</li>
+      </ul>
+    </div>
+    <div id="slider">
+      <h5>Balance</h5>
+      <h2>-$171 559.80</h2>
+      <h5 style="opacity:1; font-size: 16px;line-height: 19px;">+4.28%</h5>
+      <div id="bullets">
+        <span class="elipse-icon-dark"></span>
+        <span class="elipse-icon" style="margin-right:8px"></span>
+      </div>
+    </div>
+    <div id="transactions">
+      <ul>
+        <div class="transaction">
+          <span>Cash</span>
+          <p class="positive">$23 092.20</p>
+        </div>
+        <div class="transaction">
+          <span>Credit card</span>
+          <p class="negative">-$532</p>
+        </div>
+        <div class="transaction">
+          <span>Wife's credit card</span>
+          <p class="positive">$2 139</p>
+        </div>
+        <div class="transaction">
+          <span>Bank deposit</span>
+          <p class="positive">$200 000</p>
+        </div>
+        <div class="transaction">
+          <span>Car loan</span>
+          <p class="negative">-$67 231</p>
+        </div>
+        <div class="transaction">
+          <span>Home loan</span>
+          <p class="negative">-$329 027</p>
+        </div>
+        <div class="transaction">
+          <span>Bank deposit</span>
+          <p class="positive">$120 000</p>
+        </div>
+        <div class="transaction">
+          <span>Home phone bill</span>
+          <p class="negative">-$230</p>
+        </div>
+      </ul>
+    </div>
+  </div>
+</body>
+
 </html>
