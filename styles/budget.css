@@ -24,3 +24,134 @@ body {
 .icons {
   float: right;
 }
+
+@font-face {
+  font-family: 'SF Pro Text';
+  src: url('../assets/font.ttf');
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  color: #FFF;
+  font-family: "SF Pro Text", Arial, Helvetica, sans-serif;
+}
+
+header {
+  overflow: auto;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+.title {
+  width: 75%;
+  font-size: 17px;
+  line-height: 20px;
+}
+
+.icon {
+  margin: 0 5px;
+}
+
+nav {
+  clear: both;
+  overflow: auto;
+  margin-bottom: 30px;
+}
+
+.tab {
+  float: left;
+  width: 25%;
+  height: 40px;
+  padding: 15px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  font-size: 13px;
+  line-height: 16px;
+  text-transform: uppercase;
+  opacity: 0.7;
+}
+
+.tab.selected {
+  border-bottom: 2px solid #FFF;
+  opacity: 1;
+}
+
+main h3 {
+  margin: 0;
+  font-size: 12px;
+  line-height: 14px;
+  text-transform: uppercase;
+  opacity: 0.5;
+}
+
+main .bullet {
+  font-size: 40px;
+  line-height: 48px;
+}
+
+main h5 {
+  margin: 0 0 30px;
+  font-size: 16px;
+  line-height: 19px;
+  opacity: 0.8;
+}
+
+main .icons {
+  float: none;
+  margin-bottom: 12px;
+  font-size: 7px;
+  letter-spacing: 3px;
+  text-align: center;
+}
+
+main .icons i {
+  opacity: 0.5;
+}
+
+main .icons .selected {
+  opacity: 1;
+}
+
+.cards {
+  overflow: auto;
+  height: 527px;
+}
+
+.card {
+  margin: 8px;
+  padding: 12px;
+  background-color: #FFF;
+  border-radius: 8px;
+}
+
+.card .title {
+  margin-bottom: 4px;
+  color: #232C2D;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: left;
+  opacity: 0.6;
+}
+
+.card .value {
+  color: #232C2D;
+  font-size: 28px;
+  font-weight: 600;
+  text-align: left;
+}
+
+.card .value.blue {
+  color: #65BCBF;
+}
+
+.card .value.red {
+  color: #F8777D;
+}
