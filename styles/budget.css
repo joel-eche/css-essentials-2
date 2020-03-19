@@ -1,10 +1,16 @@
+@font-face {
+  font-family: "SFProText";
+  src: url("../SFProText.ttf") format("truetype");
+}
+
 * {
   /* font-family: 'SF Pro Text', 'Arial'; */
   color: #fff;
   box-sizing: border-box;
   user-select: none;
-  font-family: 'Arial';
+  font-family: 'SFProText', 'Sans';
 }
+
 
 body {
   /* background-color: #eaebed; */
