@@ -19,8 +19,16 @@ body {
 
 .clock {
   float: left;
+  color: white;
+  font-weight: 500;
 }
 
 .icons {
   float: right;
+  color: white;
+}
+.accounts{
+  font-family: 'SF Pro Text' 'Sans-Serif';
+  line-height: 20px;
+  font-size: 20px;
 }
