@@ -1,7 +1,31 @@
+
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap');
+
 body {
   background-color: #eaebed;
+  color: #ffff;
+  font-family: 'Roboto', sans-serif;
 }
+*{
+  box-sizing: border-box;
+}
+ul{
+  display: flex;
 
+}
+h3{
+  font-size: 16px;
+  margin-top: 4px;
+}
+li{
+
+  margin-right: 10px;
+  list-style: none;
+}
+a{
+  text-decoration: none;
+  color: #ffff;
+}
 .main-container {
   width: 375px;
   height: 812px;
@@ -10,6 +34,19 @@ body {
   padding: 5px;
   margin-left: auto;
   margin-right: auto;
+  /* align-items: center; */
+}
+.tolls #setting{
+  float: left;
+  margin-right: 135px;
+
+}
+.tolls{
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.tolls span{
+  font-size: 20px;
 }
 
 .notification-bar {
@@ -23,4 +60,47 @@ body {
 
 .icons {
   float: right;
+}
+.select{
+  text-decoration: underline;
+}
+.navbar {
+ text-align: center;
+ margin-top: 5px;
+ margin-bottom: 5px;
+ border-bottom: 1px solid #f7f7f7;
+}
+.title{
+  text-align: center;
+}
+.title h5{
+  font-size: 12px;
+  margin-bottom: 2px;
+}
+.title h1{
+  font-size: 40px;
+  margin: 0px;
+}
+.box{
+  width: 365px;
+  height: 455px;
+  overflow: auto;
+}
+.cuentas{
+  border-box: 1px solid #ffff;
+  background: #ffff;
+  border-radius: 5px;
+}
+.cuentas h3{
+  color: rgb(167, 169, 169);
+  padding-left: 5px;
+  padding-top: 5px;
+}
+.cuentas h1{
+  color: #65BCBF;
+  padding-left: 5px;
+  padding-top: 0px;
+}
+.nega h1{
+  color: #F8777D;
 }
