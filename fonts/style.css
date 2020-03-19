@@ -1,0 +1,95 @@
+
+@font-face {
+font-family: 'SF Pro Text';
+font-style: normal;
+font-weight: 400;
+src: local('SF Pro Text'), url('SFUIText-Regular.woff') format('woff');
+}
+
+
+@font-face {
+font-family: 'SF Pro Text';
+font-style: italic;
+font-weight: 400;
+src: local('SF Pro Text'), url('SFUIText-RegularItalic.woff') format('woff');
+}
+
+
+@font-face {
+font-family: 'SF Pro Text';
+font-style: normal;
+font-weight: 200;
+src: local('SF Pro Text'), url('SFUIText-Light.woff') format('woff');
+}
+
+
+@font-face {
+font-family: 'SF Pro Text';
+font-style: italic;
+font-weight: 200;
+src: local('SF Pro Text'), url('SFUIText-LightItalic.woff') format('woff');
+}
+
+
+@font-face {
+font-family: 'SF Pro Text';
+font-style: normal;
+font-weight: 500;
+src: local('SF Pro Text'), url('SFUIText-Medium.woff') format('woff');
+}
+
+
+@font-face {
+font-family: 'SF Pro Text';
+font-style: italic;
+font-weight: 500;
+src: local('SF Pro Text'), url('SFUIText-MediumItalic.woff') format('woff');
+}
+
+
+@font-face {
+font-family: 'SF Pro Text';
+font-style: normal;
+font-weight: 600;
+src: local('SF Pro Text'), url('SFUIText-Semibold.woff') format('woff');
+}
+
+
+@font-face {
+font-family: 'SF Pro Text';
+font-style: italic;
+font-weight: 600;
+src: local('SF Pro Text'), url('SFUIText-SemiboldItalic.woff') format('woff');
+}
+
+
+@font-face {
+font-family: 'SF Pro Text';
+font-style: normal;
+font-weight: 700;
+src: local('SF Pro Text'), url('SFUIText-Bold.woff') format('woff');
+}
+
+
+@font-face {
+font-family: 'SF Pro Text';
+font-style: italic;
+font-weight: 700;
+src: local('SF Pro Text'), url('SFUIText-BoldItalic.woff') format('woff');
+}
+
+
+@font-face {
+font-family: 'SF Pro Text';
+font-style: normal;
+font-weight: 900;
+src: local('SF Pro Text'), url('SFUIText-Heavy.woff') format('woff');
+}
+
+
+@font-face {
+font-family: 'SF Pro Text';
+font-style: italic;
+font-weight: 900;
+src: local('SF Pro Text'), url('SFUIText-HeavyItalic.woff') format('woff');
+}

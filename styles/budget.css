@@ -1,5 +1,8 @@
+@import '../fonts/style.css';
 body {
   background-color: #eaebed;
+  font-family: 'SF Pro Text';
+  color: #fff;
 }
 
 .main-container {
@@ -23,4 +26,142 @@ body {
 
 .icons {
   float: right;
+}
+
+main{
+  padding: 0 11px;
+}
+header{
+  text-align: center;
+}
+header h1{
+  vertical-align: middle;
+  margin: 0;
+  display: inline-block;
+  font-size: 17px;
+  line-height: 20px;
+  font-weight: 500;
+}
+
+header i{
+  min-width: 24px;
+  padding: 4px 0;
+  text-align: center;
+}
+
+.current-activity {
+  min-height: 36px;
+}
+
+.current-activity i{
+  float: left;
+}
+
+.top-nav{
+  border-bottom: 1px solid #fff3;
+  margin-left: -16px;
+  margin-right: -16px;
+}
+
+.top-nav ul{
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+.top-nav li{
+  min-width: 24%;
+  padding: 6px 0;
+  vertical-align: middle;
+  height: 100%;
+  display: inline-block;
+  font-weight: 500;
+  font-size: 13px;
+  text-transform: uppercase;
+  opacity: 0.7;
+  position: relative;
+}
+
+.top-nav li.active{
+  opacity: 1;
+}
+.top-nav li.active::after{
+  content:'';
+  bottom: -1px;
+  left: 0;
+  width: 100%;
+  position: absolute;
+  border-bottom: 2px solid #fff
+}
+.account-summary{
+  padding: 32px 0 8px;
+}
+.account-summary h3{
+  font-size: 12px;
+  text-transform: uppercase;
+  line-height: 14px;
+  opacity: 0.5;
+  margin: 0;
+}
+.account-summary h2{
+  margin: 0;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 48px;
+
+}
+.account-summary span{
+  line-height: 19px;
+  letter-spacing: -.02em;
+  opacity: 0.8;
+}
+.account-summary nav{
+  margin-top: 24px;
+}
+.account-summary nav ul{
+  margin: 0;
+  padding: 0;
+}
+.account-summary nav li.active{
+  opacity: 1;
+}
+.account-summary nav li{
+  display: inline-block;
+  width: 8px;          
+  height: 8px;
+  background: #ffffff;
+  border-radius: 100%;
+  opacity: 0.3;
+}
+.account-list{
+  overflow-y: scroll;
+  max-height: 514px;
+}
+.account-list ul{
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+.account-list li{
+  border-radius: 8px;
+  background: #ffffff;
+  padding: 15px 12px;
+  margin-bottom: 8px;
+}
+.account-list span{
+  letter-spacing: -0.02em;
+  color: #65BCBF;
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 33px;
+}
+.account-list .in-debt{
+  color: #F8777D;
+}
+.account-list h2{
+  margin: 0;
+  color: #232c2d;
+  opacity: 0.6;
+  font-size: 16px;
+  line-height: 19px;
+  font-weight: 500;
 }
