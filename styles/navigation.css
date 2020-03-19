@@ -1,3 +1,7 @@
+* {
+  font-family: 'Roboto';
+  box-sizing: border-box;
+}
 body {
   background-color: #eaebed;
 }
@@ -15,4 +19,76 @@ body {
   width: 100%;
   height: 100%;
   border: 1px solid #eaebed;
+  box-shadow: 1px 5px 7px 1px rgba(0, 0, 0, .4);
+}
+
+/* Gerard Altamirano */
+.top {
+  width: 100%;
+  height: 25%;
+  color: rgba(0, 0, 0, 0.87);
+  padding-left: 2vh;
+}
+
+.user-icon {
+  font-size: 50px;
+  color:  rgba(0, 0, 0, 0.24);
+  margin: 6vh 0vh 2vh 0vh;
+}
+
+.user-info span:first-child {
+  float: left;
+  width: 100%;
+  font-size: 20px;
+  margin-bottom: 3vh;
+}
+
+.user-info span:last-child {
+  width: 90%;
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.user-info i {
+  margin-left: 20%;
+  width: 10%;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+
+.list {
+  border-top: 1px solid #E5E5E5;
+  padding: 2vh 1vh;
+}
+
+.list-tile {
+  border-radius: 5px;
+  width: 100%;
+  padding: 2vh;
+  font-size: 14px;
+  user-select: none;
+}
+
+.list-tile:hover {
+  background: rgba(0, 0, 0, 0.04);
+  cursor: pointer;
+}
+
+.list-tile:active {
+  background: #E3F2FD;;
+  color: #2196F3;
+}
+
+.list-tile:active i {
+  color: #2196F3;
+}
+
+.list-tile i {
+  color:  rgba(0, 0, 0, 0.54);
+  margin-right: 3vh;
+}
+
+.list-subtitle {
+  color: #9E9E9E;
+  font-size: 14px;
 }
