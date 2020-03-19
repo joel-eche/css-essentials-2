@@ -1,5 +1,6 @@
 body {
   background-color: #eaebed;
+  font-family: Roboto, sans-serif;
 }
 
 .main-container {
@@ -15,4 +16,41 @@ body {
   width: 100%;
   height: 100%;
   border: 1px solid #eaebed;
+
+}
+
+/* My styles */
+.viewport{
+  margin-left: 20px;
+}
+img{
+  width: 50px;
+  margin: 50px 0 20px 0;
+}
+.header h2{
+  font-weight: 400;
+}
+.header p{
+  font-weight: 300;
+}
+.other{
+  color: rgba(0, 0, 0, 0.54);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 300px;
+}
+.other i{
+  margin-top: -2px;
+}
+.itemslist .item{
+  display: flex;
+}
+.itemslist .item i{
+  font-size: 23px;
+  height: 20px;
+  margin-top: 18px;
+}
+.itemslist .item h4{
+  margin-left: 45px;
 }
