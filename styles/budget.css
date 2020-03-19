@@ -79,3 +79,42 @@ body {
 
   border-bottom: 1px solid rgba(255, 255, 255, 0.1) ;
 }
+
+.balance {
+  height: 178px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.balance .container-title span{
+  font-size: 12px;
+  line-height: 14px;
+
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+
+  color: #FFFFFF;
+
+  opacity: 0.5;
+}
+.balance .container-amount {
+  font-size: 40px;
+  line-height: 48px;
+
+  text-align: center;
+  letter-spacing: -0.05em;
+
+  color: #FFFFFF;
+}
+.balance .container-percent {
+  font-size: 16px;
+  line-height: 19px;
+
+  letter-spacing: -0.02em;
+
+  color: #FFFFFF;
+
+  opacity: 0.8;
+}
