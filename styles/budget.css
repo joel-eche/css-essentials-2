@@ -1,3 +1,8 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+}
+
 body {
   background-color: #eaebed;
 }
@@ -7,20 +12,70 @@ body {
   height: 812px;
   background-color: #f8777d;
   border-radius: 10px;
-  padding: 5px;
+  padding: 0px;
   margin-left: auto;
   margin-right: auto;
 }
 
 .notification-bar {
-  margin: 14px 20px 0px 20px;
   height: 44px;
+  margin: 14px 20px 0px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .clock {
-  float: left;
+  padding-top: 14px;
+  align-self: start;
+  font-size: 15px;
+  line-height: 18px;
 }
 
 .icons {
-  float: right;
+  height: 44px;
+  padding-top: 14px;
+  align-self: flex-end
+}
+
+.action-bar {
+  height: 44px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 18px;
+  padding-right: 18px;
+}
+
+.action-bar .title > span {
+  font-size: 17px;
+  line-height: 20px;
+
+  text-align: center;
+
+  color: #FFFFFF;
+}
+
+.menu-options {
+  height: 40px;
+  list-style: none;
+  display: flex;
+  padding: 0px;
+  margin: 0px;
+}
+
+.menu-options li {
+  width: 25%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font-size: 13px;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  opacity: 0.7;
+
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1) ;
 }
