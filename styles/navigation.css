@@ -16,3 +16,122 @@ body {
   height: 100%;
   border: 1px solid #eaebed;
 }
+
+header {
+  position: relative;
+  font-family: Roboto;
+  font-style: normal;
+  height: 172px;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+header * {
+  position: absolute;
+}
+
+header i:first-child,
+header h1,
+header p {
+  left: 16px;
+  margin: 0px;
+}
+
+header i:first-child {
+  top: 40px;
+  font-size: 40px;
+  color: rgba(0, 0, 0, 0.24);
+}
+
+header h1 {
+  top: 104px;
+
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+
+  letter-spacing: 0.15px;
+
+  color: rgba(0, 0, 0, 0.87);
+}
+
+header p {
+  top: 134px;
+
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 21px;
+}
+
+header i:last-child {
+  right: 23px;
+  bottom: 20px;
+  color: rgba(0, 0, 0, 0.54);
+}
+
+main {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  margin-left: 8px;
+  margin-right: 8px;
+  margin-top: 8px;
+}
+
+main div.lista-items {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 21px;
+  /* or 150% */
+
+  letter-spacing: 0.1px;
+  color: rgba(0, 0, 0, 0.87);
+  padding-bottom: 10px;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+main div.lista-items:last-child {
+  border-bottom: none;
+}
+
+main div.lista-items div {
+  height: 40px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  padding-left: 21px;
+  box-sizing: border-box;
+  border-radius: 4px;
+}
+
+main div.lista-items div.active {
+  background: #e3f2fd;
+}
+main div.lista-items div.active * {
+  color: #2196f3;
+}
+
+main div.lista-items div * {
+  float: left;
+  margin: 0px;
+  line-height: 40px;
+}
+
+main div.lista-items div i {
+  font-size: 18px;
+  color: rgba(0, 0, 0, 0.54);
+}
+
+main div.lista-items div p {
+  margin-left: 37px;
+}
+
+main h2 {
+  font-size: 14px;
+  line-height: 21px;
+  margin-left: 16px;
+
+  letter-spacing: 0.25px;
+
+  color: #9e9e9e;
+}

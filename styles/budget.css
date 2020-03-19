@@ -1,3 +1,12 @@
+* {
+  margin: 0px;
+}
+
+@font-face {
+  font-family: "SF Pro Text";
+  src: url("..\assets\fonts\FontsFree-Net-SFProText-Regular.ttf");
+}
+
 body {
   background-color: #eaebed;
 }
@@ -10,6 +19,7 @@ body {
   padding: 5px;
   margin-left: auto;
   margin-right: auto;
+  overflow: hidden;
 }
 
 .notification-bar {
@@ -23,4 +33,94 @@ body {
 
 .icons {
   float: right;
+}
+
+header {
+  text-align: center;
+}
+
+header div.balance {
+  font-family: SF Pro Text;
+  color: #ffffff;
+  margin-top: 29px;
+  margin-bottom: 29px;
+}
+
+header div.balance > h2 {
+  font-size: 12px;
+  line-height: 14px;
+  text-transform: uppercase;
+
+  opacity: 0.5;
+}
+
+header div.balance > p {
+  font-size: 40px;
+  line-height: 48px;
+  letter-spacing: -0.05em;
+}
+header div.balance > p:last-child {
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: -0.02em;
+  opacity: 0.8;
+}
+
+header div ul.periodicidad {
+  width: 100%;
+  list-style: none;
+  padding: 0px;
+  color: #ffffff;
+  font-family: SF Pro Text;
+  font-size: 13px;
+  line-height: 16px;
+  height: 30px;
+}
+
+header div ul.periodicidad li {
+  float: left;
+  width: 25%;
+  padding-bottom: 11px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+header div ul.periodicidad li.active {
+  border-bottom: 1px solid #ffffff;
+}
+
+main {
+  margin-left: 8px;
+  margin-right: 8px;
+}
+
+main > div {
+  background: #ffffff;
+  border-radius: 8px;
+  margin-bottom: 8px;
+}
+
+main > div > p {
+  padding-left: 12px;
+}
+
+main > div > p:first-child {
+  padding-top: 12px;
+}
+
+main > div > p:last-child {
+  font-family: SF Pro Text;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 33px;
+  letter-spacing: -0.02em;
+
+  padding-bottom: 12px;
+}
+
+main > div > p.positive {
+  color: #65bcbf;
+}
+main > div > p.negative {
+  color: #f8777d;
 }
