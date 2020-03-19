@@ -112,3 +112,7 @@ h2 {
 .wrapper ul li:hover i {
   color: #2196f3;
 }
+
+.bot-wrapper ul li:hover i {
+  color: rgba(0, 0, 0, 0.87);
+}
