@@ -1,0 +1,125 @@
+.main {
+  padding: 10px;
+}
+
+.header {
+  position: relative;
+}
+
+.header .title {
+  display: inline-block;
+  font-size: 17px;
+  color: #fff;
+  letter-spacing: -0.02em;
+  position: relative;
+  left: 110px;
+  margin: 0;
+}
+
+.settings {
+  /* position: relative; */
+}
+
+.settings .right {
+  float: right;
+  padding: 0 5px;
+}
+
+.nav {
+  list-style: none;
+}
+
+.nav li {
+  float: left;
+  padding: 10px;
+}
+
+.nav li a {
+  text-decoration: none;
+  color: #fff;
+
+  font-size: 13px;
+  text-transform: uppercase;
+}
+
+.nav .no-active {
+  opacity: 0.7;
+}
+
+.nav .active {
+  font-weight: bold;
+  border-bottom: 1px solid #fff;
+}
+
+hr {
+  width: 100%;
+  border: 0.5px solid #fff;
+  opacity: 0.1;
+}
+
+.balance {
+  clear: left;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+}
+
+.balance > * {
+  margin: 0;
+}
+
+.balance h5 {
+  text-transform: uppercase;
+  opacity: 0.5;
+  font-size: 12px;
+}
+
+.balance .amount {
+  font-size: 40px;
+  opacity: 1;
+}
+
+.balance .disccount {
+  opacity: 0.5;
+  font-size: 16px;
+}
+
+.separator {
+  text-align: center;
+  padding-bottom: 3px;
+}
+
+.separator .circle {
+  background-color: #fff;
+  height: 5px;
+  width: 5px;
+  border-radius: 50%;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.separator .circle:last-child {
+  opacity: 0.5;
+}
+
+.card {
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.card > * {
+  margin: 0;
+}
+
+.card .title {
+  font-size: 16px;
+  color: #232c2d;
+  opacity: 0.6;
+}
+
+.card .amount {
+  font-size: 28px;
+  color: #65bcbf;
+}

@@ -9,6 +9,7 @@
       crossorigin="anonymous"
     ></script>
     <link rel="stylesheet" type="text/css" href="./styles/budget.css" />
+    <link rel="stylesheet" href="./styles/main.css" />
     <title>Personal Budget</title>
   </head>
   <body>
@@ -21,10 +22,57 @@
           <i class="fas fa-battery-three-quarters"></i>
         </div>
       </section>
-      <!-- Complete your code here -->
-      <div style="text-align: center;">
+      <section class="main">
+        <header class="header">
+          <div class="settings">
+            <img src="./assets/icons/setting.svg" alt="" />
+            <h1 class="title">Accounts</h1>
+            <img class="right" src="./assets/icons/add.svg" alt="" />
+            <img class="right" src="./assets/icons/search.svg" alt="" />
+          </div>
+          <nav>
+            <ul class="nav">
+              <li class="no-active"><a href="">Daily</a></li>
+              <li class="no-active"><a href="">Weekly</a></li>
+              <li class="active"><a href="">Monthly</a></li>
+              <li class="no-active"><a href="">Yearly</a></li>
+            </ul>
+          </nav>
+          <hr />
+        </header>
+        <div>
+          <div class="balance">
+            <h5>Balance</h5>
+            <p class="amount">-$171 559.80</p>
+            <p class="disccount">+4.28%</p>
+          </div>
+          <div class="separator">
+            <a class="circle" href=""></a>
+            <a class="circle" href=""></a>
+          </div>
+          <div>
+            <article class="card">
+              <p class="title">Cash</p>
+              <p class="amount">$ 23 092.20</p>
+            </article>
+            <article class="card">
+              <p class="title">Cash</p>
+              <p class="amount">$ 23 092.20</p>
+            </article>
+            <article class="card">
+              <p class="title">Cash</p>
+              <p class="amount">$ 23 092.20</p>
+            </article>
+            <article class="card">
+              <p class="title">Cash</p>
+              <p class="amount">$ 23 092.20</p>
+            </article>
+          </div>
+        </div>
+      </section>
+      <!-- <div style="text-align: center;">
         YOUR TURN 👀
-      </div>
+      </div> -->
     </div>
   </body>
 </html>
