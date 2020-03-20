@@ -1,5 +1,148 @@
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
 body {
   background-color: #eaebed;
+  font-family: SF Pro Text;
+}
+
+ul {
+  list-style: none;
+}
+
+.options {
+  width: 375px;
+  height: 44px;
+  left: 0px;
+  top: 44px;
+}
+.options li:nth-child(1) {
+  left: 3.2%;
+  right: 90.4%;
+  top: 22.73%;
+  bottom: 22.73%;
+}
+
+.options li:nth-child(2) {
+  left: 40%;
+  right: 40%;
+  top: 27.27%;
+  bottom: 25%;
+  
+  
+  font-size: 17px;
+  line-height: 20px;
+  text-align: center;
+  letter-spacing: -0.02em;
+  
+  color: #FFFFFF;
+}
+.options li:nth-child(3) {
+  left: 80.8%;
+  right: 12.8%;
+  top: 22.73%;
+  bottom: 22.73%;
+}
+.options li:nth-child(4) {
+  left: 90.4%;
+  right: 3.2%;
+  top: 22.73%;
+  bottom: 22.73%;
+}
+
+
+.periods {
+  position: relative;
+  width: 375px;
+  height: 40px;
+  left: 0px;
+  top: 92px;
+  box-sizing: border-box;
+}
+
+.periods li {
+  position: absolute;
+  width: 93px;
+  height: 40px;
+  top: 0px;
+}
+
+.periods li:nth-child(1) {
+  left: 0px;
+}
+
+.periods li:nth-child(2) {
+  left: 94px;
+}
+
+.periods li:nth-child(3) {
+  left: 188px;
+}
+
+.periods li:nth-child(1) {
+  left: 282px;
+}
+
+.main-statement {
+  width: 375px;
+  width: 375px;
+  height: 166px;
+  left: 0px;
+  top: 132px;
+  box-sizing: border-box;
+}
+
+.main-statement li {
+  text-align: center;
+  color: white;
+}
+
+.main-statement li:nth-child(1){
+  left: 42.4%;
+  right: 42.67%;
+  top: 20.27%;
+  bottom: 69.59%;
+
+  /* Titles / Small */
+  font-size: 12px;
+  line-height: 14px;
+  /* identical to box height */
+  letter-spacing: -0.02em;
+}
+
+.main-statement li:nth-child(2){
+  left: 15.73%;
+  right: 20.8%;
+  top: 30.41%;
+  bottom: 37.16%;
+
+  font-size: 40px;
+  line-height: 48px;
+  /* identical to box height */
+  letter-spacing: -0.05em;
+}
+
+.main-statement li:nth-child(3){
+  left: 42.4%;
+  right: 42.4%;
+  top: 65.54%;
+  bottom: 20.95%;
+
+  
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: -0.02em;
+}
+
+.cards {
+  left: 4.27%;
+  right: 4.27%;
+  top: 36.7%;
+  bottom: -2.22%;
+  box-sizing: border-box;
 }
 
 .main-container {
@@ -24,3 +167,7 @@ body {
 .icons {
   float: right;
 }
+
+
+
+
