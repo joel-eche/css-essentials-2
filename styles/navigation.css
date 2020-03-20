@@ -14,6 +14,7 @@ main {
 
 .content {
   padding: 40px;
+  box-shadow: 0px 9px 18px rgba(0, 0, 0, 0.18), 0px 6px 5px rgba(0, 0, 0, 0.24);
 }
 
 h1 {
@@ -37,8 +38,9 @@ h3 {
 .content {
  width: 256px; 
  height: 600px;
- border: solid gray 1px;
  margin: auto;
+ box-sizing: border-box;
+ padding: 20px;
 }
 
 .divider {
