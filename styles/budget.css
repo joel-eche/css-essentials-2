@@ -1,7 +1,15 @@
-body {
-  background-color: #eaebed;
+@font-face{
+  font-family: "SF Pro Text";
+  src: url("SFProText.ttf") format('truetype');
 }
 
+*{
+  color: white
+}
+body {
+  background-color: #eaebed;
+  font-family: 'Roboto', sans-serif;
+}
 .main-container {
   width: 375px;
   height: 812px;
@@ -10,17 +18,85 @@ body {
   padding: 5px;
   margin-left: auto;
   margin-right: auto;
+  color:white;
 }
-
-.notification-bar {
-  margin: 14px 20px 0px 20px;
-  height: 44px;
-}
-
 .clock {
   float: left;
 }
 
 .icons {
   float: right;
+}
+.notification-bar {
+  margin: 14px 20px 0px 20px;
+  height: 44px;
+}
+.title-bar{
+  height: 44px;
+  text-align: center;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 20px;
+}
+#cog{
+  float:left;
+}
+#title{
+  text-align: center;
+}
+.menu-bar{
+  height: 30px;
+  text-align: center;
+  border-bottom: 1px solid white;
+}
+.menu-bar>span{
+  padding: 20px 20px 14px 20px;
+}
+.balance{
+  margin: 40px 20px 20px 20px;
+  text-align: center
+}
+#money{
+  font-size: 40px;
+  font-weight: bold;
+}
+.moneyb{
+  font-size: 12px;
+  color:rgba(255,255,255,0.4);
+}
+.select{
+  text-align: center;
+}
+.select > i{
+  font-size: 5px;
+  margin-left: 1px;
+  margin-right: 1px;
+  margin-bottom: 11px;
+}
+#seconddot{
+  color:rgba(255,255,255,0.4);
+}
+.card{
+  background-color: white;
+  border-radius:8px;
+ height: 55px;
+ padding-left: 12px;
+ padding-top: 15px;
+ padding-bottom: 15px;
+  margin: 7px 15px 7px 15px;
+}
+.description{
+  color: #232C2D;
+  text-align:left;
+  padding-left: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.positive{
+  color:#65BCBF;
+  font-size: 30px;
+}
+.negative {
+  color:#F8777D;
+  font-size: 30px;
 }
