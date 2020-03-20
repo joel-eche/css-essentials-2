@@ -1,10 +1,17 @@
+@font-face {
+  font-family: "SFProText";
+  src: url("SFProText-Regular.ttf") format("truetype"); /* Safari, Android, iOS */
+}
+
 body {
   background-color: #eaebed;
+  font-family: "SFProText";
+  color: white;
 }
 
 .main-container {
   width: 375px;
-  height: 812px;
+  height: 950px;
   background-color: #f8777d;
   border-radius: 10px;
   padding: 5px;
@@ -19,8 +26,143 @@ body {
 
 .clock {
   float: left;
+  font-size: 15px;
+  line-height: 18px;
 }
 
 .icons {
   float: right;
+}
+.tools-bar {
+  margin: 14px 10px 0px 10px;
+  height: 44px;
+}
+.tools-bar div {
+  float: left;
+  width: 33%;
+}
+.tools-bar h2 {
+  text-align: center;
+  margin: 0px 5px 0px 5px;
+  font-size: 17px;
+  line-height: 20px;
+  letter-spacing: -0.02em;
+}
+.tools-bar i {
+  float: right;
+  margin: 0px 0px 0px 10px;
+}
+.tools-bar .izq {
+  float: left;
+  margin: inherit;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: inline-block;
+  color: white;
+  padding: 0px 23px 5px 23px;
+  text-decoration: none;
+  border-style: solid;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  border-width: 0.5px;
+  border-color: rgba(255, 255, 255, 0.459);
+}
+
+.active {
+  border-style: solid;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  border-width: 2px;
+  border-color: snow;
+}
+
+.menu {
+  margin: 0px -2px 0px -2px;
+  height: 30px;
+  text-align: center;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  font-size: 13px;
+}
+
+.balance {
+  text-align: center;
+}
+
+.balance h3 {
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  font-size: 12px;
+  line-height: 14px;
+  margin: 30px 0px 3px 0px;
+  opacity: 0.5;
+}
+
+.balance h1 {
+  letter-spacing: -0.05em;
+  font-size: 40px;
+  line-height: 48px;
+  margin: 1px 0px 1px 0px;
+}
+.balance p {
+  letter-spacing: -0.02em;
+  font-size: 16px;
+  line-height: 19px;
+  margin: 1px 0px 30px 0px;
+}
+.fa-circle {
+  padding: 3px;
+  font-size: 0.5rem;
+  opacity: 0.3;
+}
+#active {
+  padding: 3px;
+  font-size: 0.5rem;
+  opacity: 1;
+}
+.circle {
+  text-align: center;
+}
+
+.account-statement {
+  background-color: white;
+  border-radius: 8px;
+  padding: 20px;
+  position: relative;
+  margin: 10px 10px;
+}
+.account-statement p {
+  color: #232c2d;
+  opacity: 0.6;
+  letter-spacing: -0.02em;
+  font-size: 16px;
+  line-height: 19px;
+  margin-top: 0px;
+  margin-bottom: 10px;
+}
+.account-statement span {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 33px;
+  letter-spacing: -0.02em;
+}
+.account-statement .haber {
+  color: #65bcbf;
+}
+.account-statement .debe {
+  color: #f8777d;
 }
