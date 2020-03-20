@@ -5,9 +5,14 @@
   font-weight: normal;
 }
 
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
 body {
   background-color: #eaebed;
-  box-sizing: border-box;
   color: #fff;
   font-family: "SF Pro Text", sans-serif;
 }
@@ -44,7 +49,6 @@ header {
 header h1 {
   font-size: 17px;
   left: 130px;
-  margin: 0;
   position: absolute;
 }
 
@@ -55,14 +59,12 @@ header * {
 /*** NAVBAR ***/
 nav {
   height: 45px;
-  margin: 10px 0 0;
+  margin-top: 10px;
   position: relative;
 }
 
 ul {
   list-style: none;
-  margin: 0;
-  padding: 0;
 }
 
 ul li {
@@ -114,7 +116,7 @@ li a:hover {
 hr {
   border: none;
   border-top: 7px dotted #fff;
-  margin-top: 30px;
+  margin: 30px auto 10px;
   width: 5%;
 }
 
@@ -136,13 +138,12 @@ hr {
 .transaction-item h3 {
   color: #232c2d;
   font-size: 16px;
-  margin: 0;
   opacity: 0.6;
 }
 
 .transaction-item p {
   font-size: 28px;
-  margin: 5px 0;
+  margin-top: 5px;
 }
 
 /*** HELPER CLASSES ***/
