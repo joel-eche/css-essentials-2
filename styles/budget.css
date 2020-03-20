@@ -66,8 +66,9 @@ main {
 }
 
 .segment-bar ul li {
-  padding: 0px 21px;
   float: left;
+  min-width: 25%;
+  text-align: center;
 }
 
 .segment-bar-underline {
