@@ -70,3 +70,7 @@ ul li:hover {
 ul li:active {
   background: #E3F2FD;  
 }
+
+#arrow {
+  float: right;
+}
