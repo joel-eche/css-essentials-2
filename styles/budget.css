@@ -1,5 +1,7 @@
 body {
   background-color: #eaebed;
+  font-family: SF Pro Text;
+  color: white;
 }
 
 .main-container {
@@ -23,4 +25,118 @@ body {
 
 .icons {
   float: right;
+}
+
+.icon-2icons {
+  margin: 0px 10px 0px 10px;
+  height: 44px;
+}
+
+.settings-icon {
+  float: left;
+  width: 10%;
+}
+
+.accounts {
+  float: left;
+  width: 75%;
+  text-align: center;
+}
+
+.search-icon {
+  float: right;
+}
+
+.fouritems {
+  margin: 0px 20px 0px 20px;
+  height: 40px;
+  display: flex;
+  align-items: flex-end;
+  text-align: center;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+}
+
+.oneitem {
+  /*float: left;*/
+  margin-right: 50px;
+  font-size: 13px;
+  line-height: 16px;
+  display: flex;
+  align-items: flex-end;
+  text-align: center;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+
+  color: #ffffff;
+
+  opacity: 0.7;
+}
+
+.stats {
+  margin: 15px 10px 0px 10px;
+  height: 166px;
+  text-align: center;
+}
+
+.balance {
+  font-size: 12px;
+  line-height: 14px;
+  text-align: center;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  color: #ffffff;
+  opacity: 0.5;
+}
+
+.balance-amount {
+  font-size: 40px;
+  line-height: 48px;
+
+  text-align: center;
+  letter-spacing: -0.05em;
+
+  color: #ffffff;
+}
+
+.percentage {
+  font-size: 16px;
+  line-height: 19px;
+
+  text-align: center;
+  letter-spacing: -0.02em;
+
+  color: #ffffff;
+
+  opacity: 0.8;
+}
+
+.white-box {
+  background-color: #ffffff;
+  border-radius: 8px;
+  margin: 0 10px 5px 10px;
+  padding: 10px;
+}
+
+.description {
+  color: #232c2d;
+  opacity: 0.6;
+}
+.positive-amount {
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 33px;
+  display: flex;
+  align-items: flex-end;
+  letter-spacing: -0.02em;
+  color: #65bcbf;
+}
+
+.negative-amount {
+  font-size: 28px;
+  line-height: 33px;
+  display: flex;
+  align-items: flex-end;
+  letter-spacing: -0.02em;
+  color: #f8777d;
 }
