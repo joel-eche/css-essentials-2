@@ -99,6 +99,9 @@ main {
   font-size: 16px;
 }
 
+.pagination ul li {
+}
+
 .segments {
   padding: 10px;
 }
