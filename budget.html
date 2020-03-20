@@ -9,7 +9,112 @@
       crossorigin="anonymous"
     ></script>
     <link rel="stylesheet" type="text/css" href="./styles/budget.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
     <title>Personal Budget</title>
+    <style>
+      body {
+        font-family: "Roboto", sans-serif;
+        color: white;
+      }
+      main {
+        text-align: center;
+        clear: both;
+      }
+      .money_data {
+        font-size: 3em;
+        margin: 0px;
+      }
+      .day_data {
+        padding-top: 35px;
+      }
+      .day_data > .balance {
+        font-size: small;
+      }
+      .small_text {
+        opacity: 0.5;
+        margin: 0px;
+      }
+      .days_menu {
+        font-size: small;
+        padding-bottom: 10px;
+        clear: both;
+      }
+      .menu_items {
+        text-align: center;
+        width: 25%;
+        float: left;
+        padding-bottom: 10px;
+        border-bottom: 1px solid lightsteelblue;
+      }
+      .menu_items:hover {
+        border-bottom: 2px solid white;
+      }
+      .actions_bar {
+        padding-bottom: 25px;
+      }
+      .top_opts {
+        text-align: center;
+        width: 33.33%;
+        float: left;
+      }
+      .config {
+        text-align: left;
+      }
+      .search_more_opt {
+        text-align: right;
+        float: right;
+      }
+      .change_cursor {
+        cursor: pointer;
+      }
+      .select_sub_menu {
+        text-align: center;
+      }
+      .selectable_sub_menu {
+        display: inline-flex;
+        width: 0.5rem;
+        height: 0.5rem;
+        background: white;
+        text-decoration: none;
+        align-items: center;
+        justify-content: center;
+        border-radius: 50%;
+        margin: 0 0 0.5rem 0;
+        position: relative;
+      }
+      .details {
+        clear: both;
+        overflow: hidden;
+        height: 500px;
+      }
+      .card_detail {
+        text-align: left;
+        padding-left: 20px;
+        padding-right: 20px;
+        background-color: white;
+        margin: 20px;
+        height: 70px;
+        border-radius: 7px;
+      }
+      .card_detail > p {
+        padding-top: 10px;
+        color: gray;
+        margin: 3px;
+      }
+      .card_detail > .positive {
+        color: lightseagreen;
+        margin: 3px;
+        padding-bottom: 10px;
+      }
+      .card_detail > .negative {
+        color: tomato;
+        margin: 3px;
+        padding-bottom: 10px;
+      }
+    </style>
   </head>
   <body>
     <div class="main-container">
@@ -22,9 +127,72 @@
         </div>
       </section>
       <!-- Complete your code here -->
-      <div style="text-align: center;">
-        YOUR TURN 👀
-      </div>
+      <section class="actions_bar">
+        <div class="top_opts config">
+          <div style="padding-left: 10px;">
+            <i class="fas fa-cog change_cursor"></i>
+          </div>
+        </div>
+        <div class="top_opts">Accounts</div>
+        <div class="top_opts search_more_opt">
+          <div style="padding-right: 10px; float: right;">
+            <i class="fas fa-plus change_cursor"></i>
+          </div>
+          <div style="padding-right: 10px;float: right;">
+            <i class="fab fa-sistrix change_cursor"></i>
+          </div>
+        </div>
+      </section>
+      <br />
+      <nav class="days_menu">
+        <div class="menu_items change_cursor">DAILY</div>
+        <div class="menu_items change_cursor">WEEKLY</div>
+        <div class="menu_items change_cursor">MONTHLY</div>
+        <div class="menu_items change_cursor">YEARLY</div>
+      </nav>
+      <main>
+        <div class="day_data">
+          <p class="small_text balance">BALANCE</p>
+          <h1 class="money_data">-$171 559.80</h1>
+          <p class="small_text">+4.28%</p>
+        </div>
+        <section>
+          <br />
+          <div class="select_sub_menu">
+            <div class="selectable_sub_menu change_cursor"></div>
+            <div
+              class="selectable_sub_menu change_cursor"
+              style="opacity: .5;"
+            ></div>
+          </div>
+          <div class="details">
+            <div class="card_detail">
+              <p>Cash</p>
+              <h2 class="positive">$23 092.20</h2>
+            </div>
+            <div class="card_detail">
+              <p>Credit car</p>
+              <h2 class="negative">-$532</h2>
+            </div>
+            <div class="card_detail">
+              <p>Wife's credit card</p>
+              <h2 class="positive">$2 139</h2>
+            </div>
+            <div class="card_detail">
+              <p>Bank deposit</p>
+              <h2 class="positive">$200 000</h2>
+            </div>
+            <div class="card_detail">
+              <p>Car loan</p>
+              <h2 class="negative">-$67 231</h2>
+            </div>
+            <div class="card_detail">
+              <p>Home loan</p>
+              <h2 class="negative">-$329 027</h2>
+            </div>
+          </div>
+        </section>
+      </main>
     </div>
   </body>
 </html>

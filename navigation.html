@@ -9,12 +9,99 @@
       crossorigin="anonymous"
     ></script>
     <link rel="stylesheet" type="text/css" href="./styles/navigation.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
     <title>Navigation</title>
+    <style>
+      body {
+        font-family: "Roboto", sans-serif;
+      }
+      .my_content {
+        padding-top: 50px;
+        padding-left: 20px;
+        padding-bottom: 10px;
+      }
+      .my_content_div {
+        padding-top: 7px;
+        padding-left: 20px;
+      }
+      .fa-user-circle {
+        color: gray;
+        opacity: 0.5;
+        font-size: 3em;
+      }
+      .text_info {
+        float: left;
+        opacity: 0.5;
+      }
+      .arrow {
+        padding-right: 40px;
+        opacity: 0.5;
+        text-align: right;
+      }
+      .item_list {
+        clear: both;
+        padding-bottom: 20px;
+        font-size: 1.2em;
+      }
+      .item_list:hover {
+        cursor: pointer;
+        color: lightskyblue;
+      }
+      .tag_item {
+        float: left;
+        color: gray;
+      }
+      .text_item {
+        padding-left: 50px;
+      }
+    </style>
   </head>
   <body>
     <div class="main-container">
       <section class="navigation">
         <!-- Your code here -->
+        <div class="my_content">
+          <i class="fas fa-user-circle"></i>
+          <h3>Title</h3>
+          <div class="text_info">Additional Info (email)</div>
+          <div class="arrow">▼</div>
+        </div>
+        <hr style="color: gray;opacity: .5;" />
+        <div class="my_content_div">
+          <div class="item_list">
+            <div class="tag_item"><i class="fas fa-bookmark"></i></div>
+            <div class="text_item">Item List</div>
+          </div>
+          <div class="item_list">
+            <div class="tag_item"><i class="fas fa-bookmark"></i></div>
+            <div class="text_item">Item List</div>
+          </div>
+          <div class="item_list">
+            <div class="tag_item"><i class="fas fa-bookmark"></i></div>
+            <div class="text_item">Item List</div>
+          </div>
+          <div class="item_list">
+            <div class="tag_item"><i class="fas fa-bookmark"></i></div>
+            <div class="text_item">Item List</div>
+          </div>
+        </div>
+        <hr style="color: gray;opacity: .5;" />
+        <div class="subtitle_content">
+          <div class="my_content_div">
+            <div class="text_info" style="padding-bottom: 10px;">Subtitle</div>
+            <div class="item_list">
+              <div class="tag_item"><i class="fas fa-bookmark"></i></div>
+              <div class="text_item">Item List</div>
+            </div>
+            <div class="item_list">
+              <div class="tag_item"><i class="fas fa-bookmark"></i></div>
+              <div class="text_item">Item List</div>
+            </div>
+          </div>
+        </div>
       </section>
     </div>
   </body>
