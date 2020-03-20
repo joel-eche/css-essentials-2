@@ -99,6 +99,10 @@ main {
   font-size: 16px;
 }
 
+.segments {
+  padding: 10px;
+}
+
 .segments ul {
   margin: 0;
   padding: 0;
@@ -108,8 +112,8 @@ main {
   list-style: none;
   padding: 10px;
   background-color: white;
-  border-radius: 3px;
-  margin-bottom: 5px;
+  border-radius: 7px;
+  margin-bottom: 10px;
 }
 
 .segments li .segment-key {
