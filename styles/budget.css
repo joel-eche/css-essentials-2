@@ -1,5 +1,10 @@
+@import url("https://fonts.googleapis.com/css?family=Baloo+2&display=swap");
+* {
+  box-sizing: border-box;
+}
 body {
   background-color: #eaebed;
+  color: #ffffff;
 }
 
 .main-container {
@@ -23,4 +28,164 @@ body {
 
 .icons {
   float: right;
+}
+/*---ICON / SETTINGS ----*/
+
+.accounts {
+  text-align: center;
+  letter-spacing: -0.02em;
+  font-weight: 500;
+  font-family: "Baloo 2", cursive;
+  position: relative;
+  display: block;
+}
+.accounts li {
+  list-style: none;
+}
+.accounts li i {
+  cursor: pointer;
+}
+.fa-cog {
+  margin: 4px;
+  position: absolute;
+  float: left;
+  left: 10px;
+  top: 5px;
+}
+.accounts p {
+  font-size: 20px;
+  margin: 0;
+}
+.fa-search,
+.fa-plus {
+  position: absolute;
+  float: right;
+  right: 10px;
+  top: 5px;
+}
+.fa-search {
+  right: 40px;
+  margin: 4px;
+}
+.fa-plus {
+  right: 10px;
+  margin: 3px;
+}
+/*            NAV             */
+nav {
+  margin-top: 27px;
+  text-align: center;
+  border-bottom: 1px solid rgba(236, 236, 236, 0.1);
+  margin: 0px 5px;
+}
+nav li {
+  list-style: none;
+}
+
+nav li a {
+  color: #ffffff;
+  font-family: "Baloo 2", cursive;
+  text-decoration: none;
+  font-size: 17px;
+  margin: 0px 2%;
+  padding: 0px 2%;
+  font-weight: 300;
+  opacity: 0.7;
+  transition: all 0.3s;
+}
+
+nav li a:active,
+nav li a:hover {
+  border-bottom: 1px solid #ffffff;
+  color: #ffffff;
+  opacity: 1;
+  font-weight: 400;
+}
+.balance {
+  margin-top: 29px;
+  text-align: center;
+  line-height: 4px;
+  font-family: "Baloo 2", cursive;
+}
+.balance h1 {
+  font-size: 40px;
+  letter-spacing: -0.02em;
+}
+.balance h4 {
+  color: rgba(236, 236, 236, 0.616);
+  font-size: 12px;
+}
+.balance h2 {
+  font-size: 16px;
+  letter-spacing: -0.01em;
+  font-weight: lighter;
+}
+/*     DOTS         */
+.dots {
+  width: 50px;
+  margin: 0px auto;
+  height: 0;
+  padding: 0;
+}
+.dots li {
+  position: relative;
+  margin: 0px auto;
+  list-style: none;
+  text-align: center;
+}
+.dots li span {
+  font-size: 40px;
+  border-radius: 100%;
+  color: white;
+  line-height: 0;
+}
+/*    CARDS       */
+.cards {
+  margin-top: 34px;
+  display: block;
+  height: 534px;
+  overflow: scroll;
+  -webkit-overflow-scrolling: touch;
+}
+.cards::-webkit-scrollbar {
+  display: none;
+}
+.cards li {
+  list-style: none;
+}
+.cards section {
+  width: 343px;
+  height: 82px;
+  margin: 8px auto;
+  background: #ffffff;
+  border-radius: 8px;
+  position: relative;
+}
+.cards section .cash {
+  position: absolute;
+  left: 12px;
+  top: 12px;
+  margin: 0;
+  color: #232c2d;
+  opacity: 0.6;
+  font-family: "Baloo 2", cursive;
+}
+.cards section .number {
+  font-size: 28px;
+  line-height: 33px;
+  position: absolute;
+  left: 12px;
+  top: 36px;
+  margin: 0;
+  font-family: "Baloo 2", cursive;
+}
+.cards section:nth-child(1),
+.cards section:nth-child(3),
+.cards section:nth-child(4) {
+  color: #65bcbf;
+}
+.cards section:nth-child(2),
+.cards section:nth-child(5),
+.cards section:nth-child(6) {
+  color: #f8777d;
 }
