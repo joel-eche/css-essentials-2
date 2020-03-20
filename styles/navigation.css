@@ -1,3 +1,9 @@
+* {
+  box-sizing: border-box;
+  font-family: Roboto;
+  font-style: normal;
+}
+
 body {
   background-color: #eaebed;
 }
@@ -15,4 +21,134 @@ body {
   width: 100%;
   height: 100%;
   border: 1px solid #eaebed;
+  box-shadow: 0px 9px 18px rgba(0, 0, 0, 0.18), 0px 6px 5px rgba(0, 0, 0, 0.24);
+
+}
+
+.navigation-header {
+  height: 172px;
+  padding: 16px;
+  padding-top: 0px;
+  border-bottom: 1px solid;
+  border-color: #E5E5E5;
+}
+
+.navigation-header .avatar{
+  height: 104px;
+  padding-top: 40px;
+  font-size: 40px;
+}
+
+.navigation-header .avatar i{
+  color: rgba(0, 0, 0, 0.24);
+}
+
+.navigation-header .info{
+  height: 68px;
+}
+
+.navigation-header .info .title-container .title{
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 0.15px;
+  color: rgba(0, 0, 0, 0.87);
+}
+
+.navigation-header .info .info-container .info{
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 21px;
+  letter-spacing: 0.25px;
+  color: rgba(0, 0, 0, 0.6);
+
+}
+
+.navigation-header .info .info-container i{
+  float: right;
+  margin-right: 7px;
+  color: rgba(0, 0, 0, 0.54);
+}
+
+.navigation-body {
+  height: 428px;
+}
+
+.menu-section {
+  border-bottom: 1px solid;
+  border-color: #E5E5E5;
+  padding-top: 12px;
+}
+
+.menu-section:last-child {
+  border-bottom: 0px;
+}
+
+.menu-section .subtitle{
+  height: 40px;
+  padding: 0px 16px 0px 16px;
+}
+
+
+.menu-section .subtitle span{
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 21px;
+  letter-spacing: 0.25px;
+  color: #9E9E9E;
+}
+
+.menu-section .list{
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+}
+
+.menu-section .list .item{
+  height: 40px;
+  padding: 0px 8px 0px 8px;
+  margin-bottom: 8px;
+}
+
+.menu-section .list .item .button{
+  height: 100%;
+  width: 100%;
+  padding: 11px 13px 11px 13px;
+  border-radius: 4px;
+}
+
+.menu-section .list .item .button.active{
+  height: 100%;
+  width: 100%;
+  padding: 11px 13px 11px 13px;
+  background: #E3F2FD;
+  border-radius: 4px;
+}
+
+.menu-section .list .item .button:hover{
+  cursor: pointer;
+  background-color: rgba(0, 0, 0, 0.04);
+}
+
+.menu-section .list .item .button.active i{
+  color: #2196F3;
+}
+
+.menu-section .list .item .button.active span{
+  color: #2196F3;
+}
+
+.menu-section .list .item .button i{
+  font-size: 18px;
+  color: rgba(0, 0, 0, 0.54);
+}
+
+.menu-section .list .item .button span{
+  margin-left: 37px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 21px;
+  letter-spacing: 0.1px;
+  color: rgba(0, 0, 0, 0.87);
+  font-weight: bold;
 }
