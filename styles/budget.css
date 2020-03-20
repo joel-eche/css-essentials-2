@@ -99,11 +99,32 @@ main {
   font-size: 16px;
 }
 
+.pagination {
+  text-align: center;
+}
+
+.pagination ul {
+  padding: 0;
+}
+
 .pagination ul li {
+  list-style: none;
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  background-color: white;
+  border-radius: 7px;
+}
+
+.pagination ul li:nth-child(2) {
+  opacity: 0.3;
 }
 
 .segments {
   padding: 10px;
+  overflow-y: scroll;
+  max-height: 500px;
+  box-sizing: border-box;
 }
 
 .segments ul {
