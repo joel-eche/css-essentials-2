@@ -106,22 +106,27 @@ main {
 
 .segments li {
   list-style: none;
+  padding: 10px;
   background-color: white;
   border-radius: 3px;
+  margin-bottom: 5px;
 }
 
 .segments li .segment-key {
+  margin: 3px;
   font-size: 16px;
   font-weight: normal;
   color: #232C2D;
 }
 
 .segments li .segment-value-positive {
+  margin: 5px;
   font-size: 28px;
   color: #65BCBF;
 }
 
 .segments li .segment-value-negative {
+  margin: auto;
   font-size: 28px;
   color: #F8777D;
 }
