@@ -1,30 +1,96 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <script
-      src="https://kit.fontawesome.com/35d6a5945d.js"
-      crossorigin="anonymous"
-    ></script>
-    <link rel="stylesheet" type="text/css" href="./styles/budget.css" />
-    <title>Personal Budget</title>
-  </head>
-  <body>
-    <div class="main-container">
-      <section class="notification-bar">
-        <div class="clock">9:41</div>
-        <div class="icons">
-          <i class="fas fa-signal"></i>
-          <i class="fas fa-wifi"></i>
-          <i class="fas fa-battery-three-quarters"></i>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <script src="https://kit.fontawesome.com/35d6a5945d.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" type="text/css" href="./styles/budget.css" />
+  <title>Personal Budget</title>
+</head>
+
+<body>
+  <div class="main-container">
+    <section class="notification-bar">
+      <div class="clock">9:41</div>
+      <div class="icons">
+        <i class="fas fa-signal"></i>
+        <i class="fas fa-wifi"></i>
+        <i class="fas fa-battery-three-quarters"></i>
+      </div>
+    </section>
+    <!-- Complete your code here -->
+    <div class="app" style="text-align: center;">
+
+      <section class="title">
+        <div>
+          <h3>Accounts</h3>
+        </div>
+        <div class="cog-icon">
+          <i class="fas fa-cog"></i>
+        </div>
+        <div class="search-icon">
+          <i class="fas fa-search"></i>
+        </div>
+        <div class="plus-icon">
+          <i class="fas fa-plus"></i>
         </div>
       </section>
-      <!-- Complete your code here -->
-      <div style="text-align: center;">
-        YOUR TURN 👀
-      </div>
+
+      <section class="types">
+        <ul>
+          <li>DAILY</li>
+          <li>WEEKLY</li>
+          <li class="active">MONTHLY</li>
+          <li>YEARLY</li>
+        </ul>
+      </section>
+
+      <section class="info">
+        <h5>BALANCE</h5>
+        <h1>-$171 559.80</h1>
+        <h3>+4.28%</h3>
+      </section>
+
+      <img src="/assets/dot-full.png">
+      <img src="/assets/dot-empty.png">
+
+      <section class="subtotals">
+        <div class="scrollable">
+          <div class="cashflow">
+            <p>Cash</p>
+            <h2 class="green">$23 092.20</h2>
+          </div>
+
+          <div class="cashflow">
+            <p>Credit card</p>
+            <h2 class="red">-$532</h2>
+          </div>
+
+          <div class="cashflow">
+            <p>Wife's credit card</p>
+            <h2 class="green">$2 139</h2>
+          </div>
+
+          <div class="cashflow">
+            <p>Bank deposit</p>
+            <h2 class="green">$200 000</h2>
+          </div>
+
+          <div class="cashflow">
+            <p>Car loan</p>
+            <h2 class="red">-$67 231</h2>
+          </div>
+
+          <div class="cashflow">
+            <p>Home Loan</p>
+            <h2 class="red">-$329 027</h2>
+          </div>
+        </div>
+      </section>
     </div>
-  </body>
+  </div>
+</body>
+
 </html>

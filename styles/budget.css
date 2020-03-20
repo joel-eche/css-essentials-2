@@ -1,5 +1,12 @@
+@font-face {
+  font-family: 'SF Pro Text';
+  src: url(/assets/fonts/FontsFree-Net-SFProText-Regular.ttf);
+}
+
 body {
   background-color: #eaebed;
+  font-family: 'SF Pro Text';
+  color: white;
 }
 
 .main-container {
@@ -12,9 +19,13 @@ body {
   margin-right: auto;
 }
 
+.app {
+  width: 100%;
+}
+
 .notification-bar {
   margin: 14px 20px 0px 20px;
-  height: 44px;
+  height: 15px;
 }
 
 .clock {
@@ -23,4 +34,119 @@ body {
 
 .icons {
   float: right;
+}
+
+.title h3 {
+  text-align: center;
+  margin: 25px 0;
+  padding: 0;
+}
+
+.cog-icon {
+  position: absolute;
+  top: 9%;
+  left: 10%;
+}
+
+.search-icon {
+  position: absolute;
+  top: 9%;
+  right: 20%;
+}
+
+.plus-icon {
+  position: absolute;
+  top: 9%;
+  right: 10%;
+}
+
+.types ul {
+  list-style: none;
+  padding-left: 0;
+  box-sizing: content-box;
+}
+
+.types ul li {
+  display: inline-block;
+  padding: 15px 7px;
+  text-align: center;
+  width: 20%;
+  border-bottom: 2px solid rgba(255, 255, 255, 0.1);
+}
+
+.active {
+  border-bottom: 2px solid white !important;
+  box-sizing: content-box;
+}
+
+.info {
+  margin: 40px;
+}
+
+.info h5,
+.info h1,
+.info h3 {
+  margin: 2px;
+}
+
+.info h5 {
+  opacity: 0.6;
+}
+
+.info h1 {
+  font-size: 250%;
+}
+
+.info h3 {
+  font-weight: bold;
+}
+
+.subtotals {
+  overflow: hidden;
+}
+
+.subtotals .scrollable {
+  width: 99%;
+  height: 460px;
+  padding-right: 30px;
+  margin: 0 0px 0px 8px;
+  overflow-y: scroll;
+  box-sizing: content-box;
+}
+
+.cashflow p,
+.cashflow h2 {
+  padding-left: 15px;
+}
+
+.cashflow p {
+  padding-top: 10px;
+  padding-bottom: 5px;
+  margin: 0;
+}
+
+.cashflow h2 {
+  margin: 0 0 5px 0;
+  padding-top: 5px;
+  padding-bottom: 10px;
+}
+
+.cashflow {
+  background: #ffffff;
+  border-radius: 8px;
+  text-align: left;
+  margin: 8px 0;
+}
+
+.subtotals p {
+  color: #232c2d;
+  opacity: 0.6;
+}
+
+.green {
+  color: #65bcbf;
+}
+
+.red {
+  color: #f8777d;
 }
