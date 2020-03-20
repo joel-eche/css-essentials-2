@@ -1,5 +1,18 @@
+* {
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "SF Pro Text";
+  src: url(assets/FontsFree-Net-SFProText-Regular.ttf);
+  font-weight: normal;
+  font-style: normal;
+}
+
 body {
   background-color: #eaebed;
+  color: #ffffff;
+  font-family: "SF Pro Text";
 }
 
 .main-container {
@@ -19,8 +32,126 @@ body {
 
 .clock {
   float: left;
+  margin-left: 21px;
 }
-
 .icons {
   float: right;
+  padding-right: 5px;
+}
+
+.container-accounts {
+  padding: 0;
+}
+
+.account {
+  margin: 56px 81px 27px 111px;
+  font-size: 17px;
+  line-height: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+.substract {
+  margin-left: 9px;
+  padding-left: 5px;
+}
+
+.union {
+  padding-right: 10px;
+}
+
+.items {
+  font-size: 13px;
+  line-height: 16px;
+  font-family: "SF Pro Text";
+  margin-left: 0;
+  padding: 20px 0 11px 28px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.item-1 {
+  margin-right: 36px;
+  opacity: 0.7;
+}
+
+.item-2 {
+  margin-right: 35px;
+  opacity: 0.7;
+}
+
+.item-3 {
+  margin-right: 36px;
+}
+
+.item-4 {
+  opacity: 0.7;
+}
+
+.item-3.active {
+  padding-bottom: 11px;
+  border-bottom: 4px solid #ffffff;
+  color: #ffffff;
+}
+
+.balance {
+  text-align: center;
+}
+
+.word {
+  font-size: 12px;
+  line-height: 14px;
+  color: #ffffff;
+  opacity: 0.5;
+  margin-top: 29px;
+  margin-bottom: 0;
+}
+
+.number-1 {
+  font-size: 40px;
+  line-height: 48px;
+  margin-top: 0;
+  margin-bottom: 4px;
+}
+
+.number-2 {
+  margin-top: 0;
+}
+
+.points {
+  margin-top: 31px;
+  margin-left: 177px;
+  margin-bottom: 12px;
+}
+
+.box {
+  background-color: #ffffff;
+  border-radius: 8px;
+  margin-right: 16px;
+  margin-left: 16px;
+  margin-bottom: 8px;
+}
+
+.name {
+  font-size: 16px;
+  line-height: 19px;
+  color: #232c2d;
+  opacity: 0.6;
+  margin-left: 12px;
+  margin-top: 12px;
+  margin-bottom: 0px;
+}
+
+.green {
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 33px;
+  color: #65bcbf;
+  letter-spacing: -0.02em;
+  margin-left: 12px;
+  margin-bottom: 12px;
+  margin-top: 4px;
+}
+
+.red {
+  color: #f8777d;
 }
