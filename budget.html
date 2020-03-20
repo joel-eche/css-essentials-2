@@ -12,7 +12,7 @@
     <title>Personal Budget</title>
   </head>
   <body>
-    <div class="main-container">
+    <main>
       <section class="notification-bar">
         <div class="clock">9:41</div>
         <div class="icons">
@@ -21,10 +21,58 @@
           <i class="fas fa-battery-three-quarters"></i>
         </div>
       </section>
-      <!-- Complete your code here -->
-      <div style="text-align: center;">
-        YOUR TURN 👀
-      </div>
-    </div>
+      <section class="management-bar">
+        <div class="settings">
+          <i class="fas fa-cog"></i>
+        </div>
+        Accounts
+        <div class="search-add">
+          <i class="fas fa-search"></i> 
+          <i class="fas fa-plus"></i>
+        </div>
+      </section>
+      <section class="segment-bar">
+        <ul>
+          <li>Daily</li>
+          <li>Weekly</li>
+          <li>Monthly</li>
+          <li>Yearly</li>
+        </ul>
+      </section>
+      <section class="segment-bar-underline"></section>
+      <section class="balance">
+        <p id="balance-title">Balance</p>
+        <p id="balance-amount">-$171 559.80</p>
+        <p id="balance-percentage-change">+4.28%</p>
+      </section>
+      <section class="segments">
+        <ul>
+          <li>
+            <p class="segment-key">Cash</p>
+            <p class="segment-value-positive">$23 092.20</p>
+          </li>
+          <li>
+            <p class="segment-key">Credit card</p>
+            <p class="segment-value-positive">-$532</p>
+          </li>
+          <li>
+            <p class="segment-key">Wife's credit card</p>
+            <p class="segment-value-positive">$2 139</p>
+          </li>
+          <li>
+            <p class="segment-key">Bank deposit</p>
+            <p class="segment-value-positive">$200 000</p>
+          </li>
+          <li>
+            <p class="segment-key">Car loan</p>
+            <p class="segment-value-negative">-$67 231</p>
+          </li>
+          <li>
+            <p class="segment-key">Home loan</p>
+            <p class="segment-value-negative">-$329 027</p>
+          </li>
+        </ul>
+      </section>
+    </main>
   </body>
 </html>

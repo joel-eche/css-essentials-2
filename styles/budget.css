@@ -1,4 +1,11 @@
+@font-face {
+  font-family: "SF Pro Text";
+  src: url("../fonts//FontsFree-Net-SFProText-Regular.ttf");
+}
+
 body {
+  font-family: "SF Pro Text";
+  color: white;
   background-color: #eaebed;
 }
 
@@ -23,4 +30,88 @@ body {
 
 .icons {
   float: right;
+}
+
+.management-bar {
+  text-align: center;
+  font-weight: bold;
+  padding: 5px;
+}
+
+.settings {
+  float: left;
+}
+
+.search-add {
+  float: right;
+}
+
+.segment-bar {
+  font-size: 13px;
+  text-transform: uppercase;
+  opacity: 0.7;
+}
+
+.segment-bar ul {
+  padding: 0;
+  list-style: none;
+}
+
+.segment-bar ul li {
+  padding: 0px 21px;
+  float: left;
+}
+
+.segment-bar-underline {
+  border-bottom: solid white 1px;
+  padding: 5px;
+  clear: both;
+  opacity: 0.1;
+}
+
+.balance {
+  clear: both;
+  text-align: center;
+}
+
+.balance p:nth-child(1) {
+  text-transform: uppercase;
+  font-size: 12px;
+  opacity: 0.5;
+  margin: 12px;
+}
+
+.balance p:nth-child(2) {
+  font-size: 40px;
+  margin: auto;
+}
+
+.balance p:nth-child(3) {
+  font-size: 16px;
+}
+
+.segments ul {
+  margin: 0;
+  padding: 0;
+}
+
+.segments li {
+  list-style: none;
+  background-color: white;
+  border-radius: 3px;
+}
+
+.segments li .segment-key {
+  font-size: 16px;
+  color: #232C2D;
+}
+
+.segments li .segment-value-positive {
+  font-size: 28px;
+  color: #65BCBF;
+}
+
+.segments li .segment-value-negative {
+  font-size: 28px;
+  color: #F8777D;
 }
