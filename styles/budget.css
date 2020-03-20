@@ -1,13 +1,26 @@
+@font-face {
+  font-family: "SF Pro Text";
+  src: url("../fonts/FontsFree-Net-SFProText-Regular.ttf");
+  font-style: normal;
+}
+
 body {
+  font-family: "SF Pro Text";
   background-color: #eaebed;
+  color: #ffffff;
+}
+
+.navigation {
+  border-bottom: 0.5px solid rgba(255, 255, 255, 0.8);
+  padding: 0;
 }
 
 .main-container {
   width: 375px;
-  height: 812px;
+  height: 852px;
   background-color: #f8777d;
   border-radius: 10px;
-  padding: 5px;
+  padding: 10px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -23,4 +36,94 @@ body {
 
 .icons {
   float: right;
+}
+
+/* search-bar */
+.search-bar {
+  position: relative;
+  margin-bottom: 45px;
+}
+
+.settings {
+  float: left;
+}
+.accounts {
+  position: absolute;
+  text-align: center;
+  width: 100%;
+}
+.search {
+  float: right;
+}
+
+/* menu-bar */
+.menu-bar {
+  height: 44px;
+}
+ul {
+  list-style: none;
+  text-align: center;
+  padding: 0;
+}
+ul li {
+  line-height: 44px;
+  float: left;
+  width: 25%;
+}
+li a {
+  text-transform: uppercase;
+  color: #ffffff;
+  opacity: 0.7;
+  text-decoration: none;
+}
+li a:hover {
+  opacity: unset;
+}
+ul li:hover {
+  border-bottom: 1px solid #ffffff;
+}
+
+/* total */
+.total-bar {
+  padding: 40px 0;
+  text-align: center;
+  text-transform: uppercase;
+}
+.balance {
+  font-size: 12px;
+  color: #ffffff;
+  opacity: 0.5;
+}
+.total {
+  font-size: 40px;
+}
+
+/* slide */
+.slide-bar {
+  text-align: center;
+  margin-bottom: 12px;
+}
+.slide-bar > img {
+  margin: 0 3px;
+}
+
+/* cards */
+.card {
+  background-color: #ffffff;
+  border-radius: 8px;
+  padding: 12px;
+  margin-bottom: 10px;
+}
+.description {
+  color: #232c2d;
+  opacity: 0.6;
+  font-size: 16px;
+}
+.quantity {
+  font-weight: 600;
+  font-size: 28px;
+  color: #65bcbf;
+}
+.red {
+  color: #f8777d;
 }
