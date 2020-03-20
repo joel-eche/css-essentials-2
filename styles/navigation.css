@@ -87,6 +87,7 @@ li {
 li:hover {
   background: rgba(0, 0, 0, 0.04);
   border-radius: 4px;
+  cursor: pointer;
 }
 
 li .fa-bookmark {
