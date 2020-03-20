@@ -112,6 +112,7 @@ main {
 
 .segments li .segment-key {
   font-size: 16px;
+  font-weight: normal;
   color: #232C2D;
 }
 
