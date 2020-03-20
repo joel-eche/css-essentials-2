@@ -1,30 +1,95 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <script
-      src="https://kit.fontawesome.com/35d6a5945d.js"
-      crossorigin="anonymous"
-    ></script>
+    <link href="https://fonts.googleapis.com/css?family=Roboto&amp;display=swap" rel="stylesheet" />
+    <script src="https://kit.fontawesome.com/35d6a5945d.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" type="text/css" href="./styles/budget.css" />
     <title>Personal Budget</title>
-  </head>
-  <body>
+</head>
+
+<body>
     <div class="main-container">
-      <section class="notification-bar">
-        <div class="clock">9:41</div>
-        <div class="icons">
-          <i class="fas fa-signal"></i>
-          <i class="fas fa-wifi"></i>
-          <i class="fas fa-battery-three-quarters"></i>
+        <section class="notification-bar" style="font-size: 15px;">
+            <div class="clock">9:41</div>
+            <div class="icons">
+                <i class="fas fa-signal"></i>
+                <i class="fas fa-wifi"></i>
+                <i class="fas fa-battery-three-quarters"></i>
+            </div>
+        </section>
+        <!-- Complete your code here -->
+        <div style="text-align: center;">
+            <main>
+                <header>
+                    <div class="container">
+                        <i class="fas fa-cog"></i>
+                        <span>Accounts</span>
+                        <div class="search">
+                            <i class="fas fa-search"></i>
+                            <i class="fa fa-plus"></i>
+                        </div>
+                    </div>
+
+                    <nav>
+                        <ul>
+                            <li><a href="#">DAILY</a></li>
+                            <li><a href="#">WEEKLY</a></li>
+                            <li><a href="#">MONTHLY</a></li>
+                            <li><a href="#">YEARLY</a></li>
+                        </ul>
+                    </nav>
+                </header>
+
+                <section class="container cblock">
+                    <article class="balance">
+                        <p class="title-balance description">
+                            BALANCE
+                        </p>
+                        <p class="body-balance">
+                            -$171 5559.80
+                        </p>
+                        <p class="subtitle-balance">
+                            +4.28%
+                        </p>
+
+                        <div class="slide">
+                            <i class="fas fa-circle"></i>
+                            <i class="fas fa-circle"></i>
+                        </div>
+                    </article>
+
+                    <article class="card">
+                        <h2 class="card-title">Cash</h2>
+                        <p class="card-bt blue">$23 092.20</p>
+                    </article>
+                    <article class="card">
+                        <h2 class="card-title">Credit card</h2>
+                        <p class="card-bt red">-$532</p>
+                    </article>
+                    <article class="card">
+                        <h2 class="card-title">Wife's credit card</h2>
+                        <p class="card-bt blue">$2 139</p>
+                    </article>
+                    <article class="card">
+                        <h2 class="card-title">Bank deposit</h2>
+                        <p class="card-bt blue">$200 000</p>
+                    </article>
+                    <article class="card">
+                        <h2 class="card-title">Car loan</h2>
+                        <p class="card-bt red">-$67 231</p>
+                    </article>
+                    <!-- <article class="card">
+                        <h2 class="card-title">Home loan</h2>
+                        <p class="card-bt red">-$329 027</p>
+                    </article> -->
+                </section>
+            </main>
         </div>
-      </section>
-      <!-- Complete your code here -->
-      <div style="text-align: center;">
-        YOUR TURN 👀
-      </div>
     </div>
-  </body>
+</body>
+
 </html>
