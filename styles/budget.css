@@ -25,23 +25,20 @@ i {
 .notification-bar {
   height: 44px;
   margin: 14px 20px 0px 20px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
 }
 
 .clock {
   padding-top: 14px;
-  align-self: start;
   font-size: 15px;
   line-height: 18px;
   color: white;
+  float: left;
 }
 
 .icons {
   height: 44px;
   padding-top: 14px;
-  align-self: flex-end
+  float: right;
 }
 
 .action-bar {
@@ -56,9 +53,7 @@ i {
 .action-bar .title > span {
   font-size: 17px;
   line-height: 20px;
-
   text-align: center;
-
   color: #FFFFFF;
 }
 
@@ -80,13 +75,11 @@ i {
   margin: 0px;
   box-sizing: border-box;
   display: inline-block;
-
   font-size: 13px;
   letter-spacing: -0.02em;
   text-transform: uppercase;
   color: #FFFFFF;
   opacity: 0.7;
-
   border-bottom: 1px solid rgba(255, 255, 255, 1) ;
 }
 
@@ -104,10 +97,8 @@ i {
 .balance .container-title span {
   font-size: 12px;
   line-height: 14px;
-
   letter-spacing: -0.02em;
   text-transform: uppercase;
-
   color: #FFFFFF;
 
   opacity: 0.5;
@@ -115,21 +106,16 @@ i {
 .balance .container-amount {
   font-size: 40px;
   line-height: 48px;
-
   text-align: center;
   letter-spacing: -0.05em;
-
   color: #FFFFFF;
 }
 
 .balance .container-percent {
   font-size: 16px;
   line-height: 19px;
-
   letter-spacing: -0.02em;
-
   color: #FFFFFF;
-
   opacity: 0.8;
 }
 
