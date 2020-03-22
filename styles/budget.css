@@ -1,148 +1,19 @@
+@font-face {
+  font-family: 'sft';
+  src: url("../fonts/SFProText-Regular.ttf");
+  font-style: normal;
+  font-weight: 100;
+}
 
 * {
   margin: 0;
   padding: 0;
-}
-
-body {
-  background-color: #eaebed;
-  font-family: SF Pro Text;
+  box-sizing: border-box;
+  font-family: 'sft';
 }
 
 ul {
   list-style: none;
-}
-
-.options {
-  width: 375px;
-  height: 44px;
-  left: 0px;
-  top: 44px;
-}
-.options li:nth-child(1) {
-  left: 3.2%;
-  right: 90.4%;
-  top: 22.73%;
-  bottom: 22.73%;
-}
-
-.options li:nth-child(2) {
-  left: 40%;
-  right: 40%;
-  top: 27.27%;
-  bottom: 25%;
-  
-  
-  font-size: 17px;
-  line-height: 20px;
-  text-align: center;
-  letter-spacing: -0.02em;
-  
-  color: #FFFFFF;
-}
-.options li:nth-child(3) {
-  left: 80.8%;
-  right: 12.8%;
-  top: 22.73%;
-  bottom: 22.73%;
-}
-.options li:nth-child(4) {
-  left: 90.4%;
-  right: 3.2%;
-  top: 22.73%;
-  bottom: 22.73%;
-}
-
-
-.periods {
-  position: relative;
-  width: 375px;
-  height: 40px;
-  left: 0px;
-  top: 92px;
-  box-sizing: border-box;
-}
-
-.periods li {
-  position: absolute;
-  width: 93px;
-  height: 40px;
-  top: 0px;
-}
-
-.periods li:nth-child(1) {
-  left: 0px;
-}
-
-.periods li:nth-child(2) {
-  left: 94px;
-}
-
-.periods li:nth-child(3) {
-  left: 188px;
-}
-
-.periods li:nth-child(1) {
-  left: 282px;
-}
-
-.main-statement {
-  width: 375px;
-  width: 375px;
-  height: 166px;
-  left: 0px;
-  top: 132px;
-  box-sizing: border-box;
-}
-
-.main-statement li {
-  text-align: center;
-  color: white;
-}
-
-.main-statement li:nth-child(1){
-  left: 42.4%;
-  right: 42.67%;
-  top: 20.27%;
-  bottom: 69.59%;
-
-  /* Titles / Small */
-  font-size: 12px;
-  line-height: 14px;
-  /* identical to box height */
-  letter-spacing: -0.02em;
-}
-
-.main-statement li:nth-child(2){
-  left: 15.73%;
-  right: 20.8%;
-  top: 30.41%;
-  bottom: 37.16%;
-
-  font-size: 40px;
-  line-height: 48px;
-  /* identical to box height */
-  letter-spacing: -0.05em;
-}
-
-.main-statement li:nth-child(3){
-  left: 42.4%;
-  right: 42.4%;
-  top: 65.54%;
-  bottom: 20.95%;
-
-  
-  font-size: 16px;
-  line-height: 19px;
-  letter-spacing: -0.02em;
-}
-
-.cards {
-  left: 4.27%;
-  right: 4.27%;
-  top: 36.7%;
-  bottom: -2.22%;
-  box-sizing: border-box;
 }
 
 .main-container {
@@ -153,6 +24,7 @@ ul {
   padding: 5px;
   margin-left: auto;
   margin-right: auto;
+  
 }
 
 .notification-bar {
@@ -168,6 +40,143 @@ ul {
   float: right;
 }
 
+header {
+  width: 100%;
+  height: 40PX;
+  color: #FFFFFF;
+}
 
+.settings-icon {
+  float: left;
+  padding-left: 7px;
+}
 
+.title {
+  width: 75px;
+  height: 21px;
+  margin-left: 111px;
+  margin-right: 78px;
+  font-size: 17px;
+  line-height: 20px;
+  letter-spacing: -0.02em;
+  display: inline-block;
+  text-align: center;
+}
+
+.right-icons {
+  float: right;
+  margin-right: 7px;
+}
+.right-icons i:nth-child(2) {
+  margin-left: 10px;
+}
+
+.periodicity-options {
+  width: 100%;
+  height: 40px;
+}
+
+.periodicity-options a {
+  float: left;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  width: 25%;
+  text-align: center;
+  font-size: 17px ;
+  text-decoration: none;
+  color: #FFFFFF;
+  opacity: 0.7;
+  border-bottom: 1px solid rgb(255, 255, 255, 0.1);
+}
+
+.periodicity-options a:active {
+  opacity: 1;
+  border-bottom: 1px solid #FFFFFF;
+}
+
+.account-balance {
+  width: 100%;
+  height: 166px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.account-balance h1 {
+  font-size: 12px;
+  line-height: 14px;
+  padding-top: 29px;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  opacity: 0.5;
+}
+
+.account-balance h3 {
+  font-size: 40px;
+  line-height: 48px;
+  letter-spacing: -0.05em;
+  margin-bottom: 4px;
+}
+
+.account-balance h4 {
+  line-height: 19px;
+  letter-spacing: -0.02em;
+  opacity: 0.8;
+}
+
+.dot {
+  width: 7px;
+  height: 7px;
+  opacity: 0.3;
+  margin-top: 31px;
+  border-radius: 50%;
+  display: inline-block;
+  background-color: #FFFFFF;
+}
+
+.dot:active {
+  opacity: 1;
+}
+
+.transactions-section {
+  width: 343px;
+  height: 532px;
+  overflow-y: scroll;
+  margin: 0px 11px 11px 11px;
+}
+
+.transactions-section::-webkit-scrollbar{
+  display: none;
+}
+
+.deposit, .withdrawal {
+  width: 100%;
+  height: 82px;
+  margin-bottom: 8px;
+  background: #FFFFFF;
+  padding: 12px 0px 12px 12px;
+  border-radius: 8px;
+}
+.deposit h1, .withdrawal h1 {
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: -0.02em;
+  color: #232C2d;
+  opacity: 0.6;
+  margin-bottom: 4px;
+}
+
+.deposit h3, .withdrawal h3 {
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 33px;
+  letter-spacing: -0.02em;
+}
+
+.deposit h3 {
+  color: #65bcbf;
+}
+
+.withdrawal h3 {
+  color:  #F8777D;
+}
 

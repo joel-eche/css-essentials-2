@@ -1,8 +1,8 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
   list-style: none;
+  box-sizing: border-box;
 }
 
 body {
@@ -75,6 +75,11 @@ header {
 .item:active {
   background: #E3F2FD;
   border-radius: 4px;
+  /*color: #2196F3;*/
+}
+
+.item i:active, .item span:active{
+  color: #2196F3;
 }
 
 .item i {
@@ -85,13 +90,6 @@ header {
   height: 18px;
 }
 
-.item i:active {
-  color: #2196F3;
-}
-
-.item span:active {
-  color: #2196F3;
-}
 
 .item span {
   font-weight: 500;
